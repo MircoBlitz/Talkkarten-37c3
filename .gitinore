@@ -1,0 +1,9 @@
+# macOS files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# Output folder
+/output
