@@ -52,7 +52,7 @@ class Render:
           abstract[:400],
           0.9 * cm, nextDrawPoint * cm, 
           19 * cm, 3.5 * cm, 
-          12, 14, 1, 
+          12, 14, 0, 
           drawrect=False
           )
         nextDrawPoint= nextDrawPoint - 0.5
@@ -67,7 +67,7 @@ class Render:
           description,
           0.9 * cm, 1 * cm, 
           19 * cm, 9 * cm, 
-          12, 14, 1, 
+          12, 14, 0, 
           drawrect=False
           )
       
@@ -139,7 +139,7 @@ class Render:
           biography, 
           2.6 * cm, 1.2 * cm, 
           15 * cm, 5.4 * cm, 
-          11, 14, 1, 
+          11, 14, 0, 
           drawrect=False
           )
       
@@ -156,7 +156,7 @@ class Render:
           biography, 
           0.6 * cm, 1.2 * cm, 
           9.4 * cm, 5.4 * cm, 
-          11, 14, 1, 
+          11, 14, 0, 
           drawrect=False
           )
         self.genPpfFrame(
@@ -171,7 +171,7 @@ class Render:
           biography, 
           10.4 * cm, 1.2 * cm, 
           9.4 * cm, 5.4 * cm, 
-          11, 14, 1, 
+          11, 14, 0, 
           drawrect=False
           )
         
